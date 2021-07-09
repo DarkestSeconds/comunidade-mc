@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+
+
+
+
+
 * {
     font-size: 15pt;
     margin: 0;
     font-family: fantasy;
     color: white;
-    
+    float: center;
     
 }
 
@@ -14,6 +20,48 @@
   }
   
   /*MOBILE*/
+  
+  
+  .titleimgH {
+    display: center;
+    margin-top: 10px;
+    text-align: center;
+    height: 110px;
+    background-color: #171717;
+    border-radius: 65px;
+    border: 1px solid rgba( 15, 15, 15, 1 );
+    box-shadow: 0px 5px 20px 0 rgba( 87, 0, 119, 0.30 )
+  }
+  .titleHome {
+    font-family: 'Amita', cursive;;
+    font-size: 30px;
+  }
+  #raposagif {
+    float: center;
+    margin-top: -20px;
+    width: 80px;
+    height: 80px;
+    
+  }
+  
+  .deco1 {
+    background-color: #8D008F;
+    height: 2px;
+    opacity: 0.6;
+    
+  }
+  
+  .glassmor {
+    margin-top: 50px;
+    background: rgba( 0, 0, 0, 0.25 );
+    box-shadow: 0 8px 20px 0 rgba( 2, 221, 0, 0.03 );
+    backdrop-filter: blur( 14.5px );
+    -webkit-backdrop-filter: blur( 14.5px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 1100px;
+  }
+  
     #HEADTITLE {
       font-family: MinecraftiaRegular;
       text-align: center;
@@ -38,7 +86,7 @@
     margin-top: 80px;
     width: 200px;
     height: 200px;
-    animation: imgA 80s;
+    animation: imgA 200s;
     
     }
     
@@ -54,14 +102,39 @@
  
  
   .TTmc {
+    margin-top: 15px;
     text-align: center;
     font-family: fantasy;
     padding-top: 30px;
     animation: TTmcA 10s ease-in-out;
+    background: rgba( 30, 30, 30, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 2, 221, 0, 0.03 );
+   backdrop-filter: blur( 14.5px );
+   -webkit-backdrop-filter: blur( 14.5px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
     
   }
   
   
+  .discordP {
+    padding-top: 10px;
+  }
+  .discordPP {
+    font-family: MinecraftiaRegular;
+    color: #FFFFFF7D;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .discordIMG {
+    padding-top: 10px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
   #pezin {
     text-align: center;
@@ -103,13 +176,21 @@
     100% {
       opacity: 1;
     }
+    
   }
   
   @keyframes imgA {
     0% {
       transform: rotate(0deg);
+      opacity: 0
+    }
+    8% {
+      opacity: 0.7;
+    }
+    50% {
+      transform: rotate(450deg);
     }
     100% {
-      transform: rotate(360deg);
+      transform: rotate(720deg);
     }
   }
