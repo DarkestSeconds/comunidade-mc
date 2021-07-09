@@ -12,6 +12,8 @@
     height: 800px;
     
   }
+  
+  /*MOBILE*/
     #HEADTITLE {
       font-family: MinecraftiaRegular;
       text-align: center;
@@ -24,7 +26,7 @@
       font-family: MinecraftiaRegular;
       text-align: center;
       font-size: 20px;
-      padding-top: 30%;
+      padding-top: 150px;
       color: #F07200BF;
       transform: translateY(30px);
     }
@@ -36,7 +38,7 @@
     margin-top: 80px;
     width: 200px;
     height: 200px;
-    animation: imgA 60s;
+    animation: imgA 80s;
     
     }
     
@@ -46,7 +48,7 @@
     font-style: italic;
     color: #FFFFFFBF;
     font-size: 15px;
-    padding-top: 5%;
+    padding-top: 25px;
     
   }
  
@@ -58,6 +60,7 @@
     animation: TTmcA 10s ease-in-out;
     
   }
+  
   
   
   #pezin {
@@ -79,6 +82,15 @@
     text-align: center;
     font-size: 35px;
   }
+  
+  /*DESKTOP*/
+  
+  @media only screen and (min-width: 768px)
+ {
+   body {
+     height: 500px;
+   }
+ }
     /*animações*/
    
      @keyframes TTmcA {
