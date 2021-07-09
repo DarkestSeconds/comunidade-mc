@@ -1,0 +1,103 @@
+* {
+    font-size: 15pt;
+    margin: 0;
+    font-family: fantasy;
+    color: white;
+    
+    
+}
+
+  body {
+    background-color: #141414;
+    height: 800px;
+    
+  }
+    #HEADTITLE {
+      font-family: MinecraftiaRegular;
+      text-align: center;
+      font-size: 20px;
+      color:#FFFFFFEB;
+      transform: translateY(30px)
+    }
+    
+    #HEADTITLE2 {
+      font-family: MinecraftiaRegular;
+      text-align: center;
+      font-size: 20px;
+      padding-top: 30%;
+      color: #F07200BF;
+      transform: translateY(30px);
+    }
+    .imghome img {
+    opacity: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 200px;
+    height: 200px;
+    animation: imgA 60s;
+    
+    }
+    
+  .textHome {
+    text-align: center;
+    font-family: MinecraftiaRegular;
+    font-style: italic;
+    color: #FFFFFFBF;
+    font-size: 15px;
+    padding-top: 5%;
+    
+  }
+ 
+ 
+  .TTmc {
+    text-align: center;
+    font-family: fantasy;
+    padding-top: 30px;
+    animation: TTmcA 10s ease-in-out;
+    
+  }
+  
+  
+  #pezin {
+    text-align: center;
+    font-family: MinecraftiaRegular;
+    color: #FFFFFF7D;
+    padding-top: 60px;
+    font-size: 14px;
+  }
+
+  #faTwitter {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #faTwitter i {
+    text-align: center;
+    font-size: 35px;
+  }
+    /*animações*/
+   
+     @keyframes TTmcA {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes imgA {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
